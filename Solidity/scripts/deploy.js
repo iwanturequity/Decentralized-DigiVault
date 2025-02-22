@@ -2,10 +2,11 @@ const hre = require("hardhat");
 
 async function main() {
   const DigiLocker = await hre.ethers.getContractFactory("DigiLocker");
-  const digiLocker = await DigiLocker.deploy();
-  await digiLocker.waitForDeployment();
+  const digilocker = await DigiLocker.deploy();
 
-  console.log(`Contract deployed at: ${digiLocker.target}`);
+  await digilocker.waitForDeployment();
+
+  console.log("DigiLocker deployed to:", await digilocker.getAddress());
 }
 
 main().catch((error) => {

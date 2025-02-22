@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\sujal\\decentralized-digilocker\\contracts\\DecentralizedDigiLocker.sol": {
+      "lastModificationDate": 1740225091300,
+      "contentHash": "523de60374b7eaf218631e81d0e31835",
+      "sourceName": "contracts/DecentralizedDigiLocker.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "DigiLocker"
+      ]
+    }
+  }
+}

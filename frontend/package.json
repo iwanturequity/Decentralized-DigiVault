@@ -10,6 +10,10 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@bundlr-network/client": "^0.11.17",
+    "arweave": "^1.15.5",
+    "crypto-js": "^4.2.0",
+    "crytpo-js": "^0.0.1-security",
     "ethers": "^6.13.5",
     "framer-motion": "^11.0.8",
     "lucide-react": "^0.344.0",
@@ -17,10 +21,12 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.22.3",
     "viem": "^1.0.0",
-    "wagmi": "^1.0.0"
+    "wagmi": "^1.0.0",
+    "web3": "^4.16.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
+    "@types/crypto-js": "^4.2.2",
     "@types/node": "^22.13.5",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.0",
